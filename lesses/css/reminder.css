@@ -1,0 +1,128 @@
+/*mode1*/
+.mode1Root{
+    position: fixed;
+    left:50%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    overflow: hidden;
+    z-index: 1008601;
+    white-space:nowrap;
+    font-family: Verdana,Tahoma,Consolas,'Microsoft Yahei';
+}
+.helpC,.cryC,.infoC,.rightC,.smileC,.warningC,.wrongC{
+    position: absolute;
+    background-image: url("Images/help.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.cryC{
+    background-image: url("Images/cry.png");
+}
+.infoC{
+    background-image: url("Images/info.png");
+}
+.rightC{
+    background-image: url("Images/right.png");
+}
+.smileC{
+    background-image: url("Images/smile.png");
+}
+.warningC{
+    background-image: url("Images/warning.png");
+}
+.wrongC{
+    background-image: url("Images/wrong.png");
+}
+.mode1Text{
+    line-height: 30px;
+}
+
+
+/*mode2*/
+#mode2Wrapper{
+    position: fixed;
+    z-index: 1008601;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana,Tahoma,Consolas,'Microsoft Yahei';
+    font-size: 14px;
+    color: #333;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#mode2Root{
+    position: absolute;
+    z-index: 1008602;
+    width: 250px;
+    left: 50%;
+    top:50%;
+    margin-left: -125px;
+    margin-top: -65px;
+    background-color: white;
+    border-radius: 4px;
+    display: none;
+}
+.mode2Header{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+.mode2Title{
+    margin-left: 15px;
+}
+.mode2Close{
+    position: relative;
+    font-size: 20px;
+    left:180px;
+    cursor: pointer;
+}
+.mode2Close:hover{
+    color: #777;
+}
+.mode2Body{
+    padding: 15px 15px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.mode2Footer{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+.mode2OK,.mode2Cancel{
+    position: relative;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: white;
+}
+.mode2OK{
+    background-color: #2e8ded;
+    left: 130px;
+    cursor: pointer;
+}
+.mode2OK:hover{
+    background-color: #3e9dfd;
+}
+.mode2Cancel{
+    background-color: #eee;
+    left: 140px;
+    cursor: pointer;
+    color:#333;
+    border: 1px solid #ddd;
+}
+.mode2Cancel:hover{
+    background-color: #f5f5f5;
+}
+
+/*mode3*/

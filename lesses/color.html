@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ColorPicker</title>
+    <link rel="stylesheet" href="css/rain.css">
+    <script src="js/rain.js"></script>
+    <link rel="stylesheet" href="css/reminder.css">
+    <script src="js/reminder.js"></script>
+    <script src="js/crange.js"></script>
+    <style>
+        section{
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+        span{
+            display: block;
+            cursor: pointer;
+            float: left;
+            margin-bottom: 10px;
+        }
+        #change{
+            width: 400px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 32px;
+            margin: 40px 0 0 50px;
+            background-color: #2C2E28;
+        }
+        #change:hover{
+            background-color: #3C3E38;
+        }
+        #wrapper{
+            position: fixed;
+            width: 100%;
+            height: 180px;
+            background-color: #5bc0de;
+            bottom: 0;
+        }
+    </style>
+    <script>
+        $(function () {
+            var d = 1;
+            var greyWH = Math.floor($.W/32) - d;
+            function getHex(i) {
+                var tmp = i.toString(16).toUpperCase();
+                if(i<16){
+                    tmp = "0" + tmp;
+                }
+                return tmp;
+            }
+            function getColor(i) {
+                var tmp = getHex(i);
+                return "#"+ tmp + tmp + tmp;
+            }
+            function getRandomColor() {
+                return "#"+ getHex($.rand(0,255)) + getHex($.rand(0,255)) + getHex($.rand(0,255));
+            }
+            $.each(32,function (i,v) {
+                (function (i) {
+                    var span = document.createElement("span");
+                    var bgcolor = getColor(i);
+                    $(span).css({
+                        width:greyWH+"px",
+                        height:greyWH+"px",
+                        backgroundColor:bgcolor,
+                        marginRight:d+"px"
+                    });
+                    span.onclick = function () {
+                        $.copy(bgcolor);
+                        Reminder({mode:1,text:"已复制 " + bgcolor,logo:"right",stayTime:1000, animationTime:200,rootPadding: '10px 80px', rootPaddingLeft:'40px', textMarginLeft:'40px'});
+                    };
+                    $("#greyLevel").append(span);
+                }(i*8));
+            });
+            $.each(32,function (i,v) {
+                (function (i) {
+                    var span = document.createElement("span");
+                    var bgcolor = getRandomColor();
+                    $(span).css({
+                        width:greyWH+"px",
+                        height:greyWH+"px",
+                        backgroundColor:bgcolor,
+                        marginRight:d+"px"
+                    });
+                    span.onclick = function () {
+                        $.copy(bgcolor);
+                        Reminder({mode:1,text:"已复制 " + bgcolor,logo:"right",stayTime:1000, animationTime:200,rootPadding: '10px 80px', rootPaddingLeft:'40px', textMarginLeft:'40px'});
+                    };
+                    $("#colorRelated").append(span);
+                }(i*8));
+            });
+            function createRandomColor() {
+                $.each(288,function (i,v) {
+                    (function (i) {
+                        var span = document.createElement("span");
+                        var bgcolor = getRandomColor();
+                        $(span).css({
+                            width:greyWH+"px",
+                            height:greyWH+"px",
+                            backgroundColor:bgcolor,
+                            marginRight:d+"px"
+                        });
+                        span.onclick = function () {
+                            $.copy(bgcolor);
+                            Reminder({mode:1,text:"已复制 " + bgcolor,logo:"right",stayTime:1000, animationTime:200,rootPadding: '10px 80px', rootPaddingLeft:'40px', textMarginLeft:'40px'});
+                        };
+                        $("#colorRandom").append(span);
+                    }(i*8));
+                });
+            }
+            createRandomColor();
+
+            $("#change").addEvent("click",function () {
+                $("#colorRandom").html("");
+                createRandomColor();
+            });
+
+            var R,G,B;
+            new CRange("wrapper",0,255,255,function (value) {
+                R = value;
+                //setTimeout(changeColor,0);
+            },{bgcolor:"red", vlcolor:"red",dotc:"red",mvbc:"red",lbbc:"red"}).run();
+            new CRange("wrapper",0,255,170,function (value) {
+                G = value;
+                //setTimeout(changeColor,0);
+            },{bgcolor:"green", vlcolor:"green",dotc:"green",mvbc:"green",lbbc:"green"}).run();
+            new CRange("wrapper",0,255,85,function (value) {
+                B = value;
+                //setTimeout(changeColor,0);
+            },{bgcolor:"blue", vlcolor:"blue",dotc:"blue",mvbc:"blue",lbbc:"blue"}).run();
+        });
+    </script>
+
+</head>
+<body>
+<section id="greyLevel"></section>
+<section id="colorRelated"></section>
+<section id="colorRandom"></section>
+<section id="wrapper">
+    <span id="change">换一组</span>
+</section>
+</body>
+</html>
