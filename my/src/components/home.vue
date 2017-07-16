@@ -118,7 +118,7 @@
 	}
 
 	#home-left h1 {
-		font-family: '楷体';
+		font-family: 'KaiTi';
 		font-size: 24px;
 		/*margin-left: 2em;*/
 		margin-bottom: 10px;
