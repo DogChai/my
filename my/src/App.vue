@@ -63,7 +63,7 @@ export default {
 </style>
 <style type="text/css">
   body {
-    font-family: '楷体';
+    font-family: 'KaiTi';
     height: 100%;
     width: 100%;
     background: url('http://ogm5at7ve.bkt.clouddn.com/bg2.jpg') no-repeat;

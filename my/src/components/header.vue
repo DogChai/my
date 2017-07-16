@@ -131,6 +131,7 @@
 		padding: 15px 12px;
 		transition: all .5s;
 		color: lightblue;
+		font-family: 'KaiTi';
 	}
 
 	.header-right ul li a:hover {

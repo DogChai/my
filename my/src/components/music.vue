@@ -107,7 +107,7 @@
 		},
 		methods: {
 			getMusicData() {
-				this.$http.get('../../static/music.json').then((response) => {
+				this.$http.get('http://ogm5at7ve.bkt.clouddn.com/music.json').then((response) => {
 					this.musicData = response.data;
 				},(response) => {
 					console.log('失败');
@@ -619,7 +619,7 @@
 		margin-left: -350px;
 		background: rgba(110, 168, 245, 0.9);
 		transition: all .6s ease-out;
-		font-family: '楷体';
+		font-family: 'KaiTi';
 		color:white;
 		overflow: hidden;
 	}
@@ -635,6 +635,7 @@
 		background: rgb(99, 171, 238);
 		position: relative;
 		z-index: 99;
+		font-family: 'KaiTi';
 		-webkit-touch-callout: none; /* iOS Safari */
 		-webkit-user-select: none; /* Chrome/Safari/Opera */
 		-khtml-user-select: none; /* Konqueror */
@@ -647,6 +648,7 @@
 		float: left;
 		margin-left: 8%;
 		cursor: pointer;
+		font-family: 'KaiTi';
 	}
 
 	.music-begin a {
@@ -746,6 +748,7 @@
 		padding-left: 30px;
 		position: relative;
 		box-sizing: border-box;
+		font-family: 'KaiTi';
 	}
 
 	.music audio {
@@ -826,7 +829,7 @@
 		text-align: left;
 		margin-bottom: 5px;
 		bottom:5px;
-		font-family: '楷体';
+		font-family: 'KaiTi';
 		position: relative;
 		-webkit-touch-callout: none; /* iOS Safari */
 		-webkit-user-select: none; /* Chrome/Safari/Opera */
@@ -970,7 +973,7 @@
 	}
 
 	.music-list-img {
-		background: url('../assets/playbar.png');
+		background: url('http://ogm5at7ve.bkt.clouddn.com/playbar.png');
 		background-position: -42px -68px;
 		float: none;
 		width:38px;
@@ -984,6 +987,7 @@
 		line-height: 27px;
 		cursor: pointer;
 		transition: color .2s;
+		font-family: 'KaiTi';
 		-webkit-touch-callout: none; /* iOS Safari */
 		-webkit-user-select: none; /* Chrome/Safari/Opera */
 		-khtml-user-select: none; /* Konqueror */
