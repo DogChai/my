@@ -1,0 +1,8 @@
+.header-right ul .router-link-active {
+	color: white;
+	text-shadow:0 0 0 black,0 0 0 black;
+}
+
+.v-btn .router-link-active {
+	background: rgba(255,255,255,1);
+}
