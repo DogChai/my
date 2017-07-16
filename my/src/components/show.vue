@@ -243,35 +243,35 @@ export default {
 }
 
 .show-demo:nth-child(1) .demo-top {
-  background: url('../assets/demo1.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo1.png');
 }
 
 .show-demo:nth-child(2) .demo-top {
-  background: url('../assets/demo2.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo2.png');
 }
 
 .show-demo:nth-child(3) .demo-top {
-  background: url('../assets/demo3.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo3.png');
 }
 
 .show-demo:nth-child(4) .demo-top {
-  background: url('../assets/demo4.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo4.png');
 }
 
 .show-demo:nth-child(5) .demo-top {
-  background: url('../assets/demo5.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo5.png');
 }
 
 .show-demo:nth-child(6) .demo-top {
-  background: url('../assets/demo6.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo6.png');
 }
 
 .show-demo:nth-child(7) .demo-top {
-  background: url('../assets/demo7.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo7.png');
 }
 
 .show-demo:nth-child(8) .demo-top {
-  background: url('../assets/demo8.png');
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo8.png');
 }
 
 .demo-wrap {
