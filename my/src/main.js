@@ -20,7 +20,7 @@ Vue.use(VRouter)
 Vue.use(VueAxios, axios)
 
 let router = new VRouter({
-	mode: 'history',
+	mode: 'hash',
 	routes: [
 		{
 			path: '/',
