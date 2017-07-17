@@ -14,16 +14,19 @@
         <li><router-link :to="{path:'contact'}"></router-link></li>
       </ul>
     </div>
+    <vuefooter></vuefooter>
   </div>
 </template>
 
 <script>
 import vueheader from './components/header.vue'
 import vuemusic from './components/music.vue'
+import vuefooter from './components/footer.vue'
 export default {
   components: {
     vueheader,
-    vuemusic
+    vuemusic,
+    vuefooter
   },
   data() {
     return {
@@ -54,7 +57,6 @@ export default {
   }
 }
 </script>
-
 
 <style type="text/css">
   @import './style/reset.css';
