@@ -618,7 +618,7 @@
 		height: 610px;
 		left: -200%;
 		margin-left: -350px;
-		background: rgba(110, 168, 245, 0.7);
+		background: rgba(110, 168, 245, 0.8);
 		transition: all .6s ease-out;
 		font-family: 'KaiTi';
 		color:white;
@@ -745,7 +745,7 @@
 		width:100%;
 		height:40px;
 		line-height: 40px;
-		font-size: 18px;
+		font-size: 16px;
 		padding-left: 30px;
 		position: relative;
 		box-sizing: border-box;
