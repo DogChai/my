@@ -227,13 +227,15 @@
 				let musicMy = document.getElementsByClassName('music-my')[0];
 				if(this.ifshow == 0) {
 					musicMy.style.left = '50%';
-					musicMy.style.height ='610px';
+					// musicMy.style.height ='610px';
+					// musicMy.style.opacity = 1;
 					this.ifshow = 1;
 					// console.log(this.musicData);
 				}else {
-					musicMy.style.left = '50%';
-					musicMy.style.height ='0';
+					musicMy.style.left = '-200%';
+					// musicMy.style.height ='0';
 					// musicMy.style.top = '-800px';
+					// musicMy.style.opacity = 0;
 					this.ifshow = 0;
 
 				}
@@ -613,11 +615,10 @@
 		position: absolute;
 		top: 75px;
 		width:700px;
-		/*height: 610px;*/
-		height: 0px;
-		left: 50%;
+		height: 610px;
+		left: -200%;
 		margin-left: -350px;
-		background: rgba(110, 168, 245, 0.9);
+		background: rgba(110, 168, 245, 0.7);
 		transition: all .6s ease-out;
 		font-family: 'KaiTi';
 		color:white;
@@ -632,7 +633,7 @@
 		height: 40px;
 		line-height: 40px;
 		box-sizing: border-box;
-		background: rgb(99, 171, 238);
+		background: rgb(25,60,120);
 		position: relative;
 		z-index: 99;
 		font-family: 'KaiTi';

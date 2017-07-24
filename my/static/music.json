@@ -234,5 +234,35 @@
       "name": "Beyond The Memory",
       "singer": "July",
       "playBool":false
+    }, {
+      "url": "http://ohx9cuj3d.bkt.clouddn.com/%E3%82%84%E3%81%BE%E3%81%A0%E8%B1%8A%20-%20On%20My%20Own.mp3",
+      "name": "On My Own",
+      "singer": "やまだ豊",
+      "playBool":false
+    }, {
+      "url": "http://ohx9cuj3d.bkt.clouddn.com/Donna%20Burke%20-%20Glassy%20Sky.mp3",
+      "name": "Glassy Sky",
+      "singer": "Donna Burke",
+      "playBool":false
+    }, {
+      "url": "http://ohx9cuj3d.bkt.clouddn.com/G-Eazy,Kehlani%20-%20Good%20Life.mp3",
+      "name": "Good Life",
+      "singer": "G-Eazy,Kehlani",
+      "playBool":false
+    }, {
+      "url": "http://ohx9cuj3d.bkt.clouddn.com/Two%20Steps%20From%20Hell%20-%20Perfect%20Love.mp3",
+      "name": "Perfect Love",
+      "singer": "Two Steps From Hell",
+      "playBool":false
+    }, {
+      "url": "http://ohx9cuj3d.bkt.clouddn.com/The%20Chainsmokers,Coldplay%20-%20Something%20Just%20Like%20This.mp3",
+      "name": "Something Just Like This",
+      "singer": "The Chainsmokers,Coldplay",
+      "playBool":false
+    }, {
+      "url": "http://ohx9cuj3d.bkt.clouddn.com/White%20Sea%20-%20Yesterday.mp3",
+      "name": "Yesterday",
+      "singer": "White Sea",
+      "playBool":false
     }
   ]
