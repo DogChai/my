@@ -107,7 +107,7 @@
 		},
 		methods: {
 			getMusicData() {
-				this.$http.get('http://ogm5at7ve.bkt.clouddn.com/music.json').then((response) => {
+				this.$http.get('http://lesses.me/my/beta2/static/music.json').then((response) => {
 					this.musicData = response.data;
 				},(response) => {
 					console.log('失败');
