@@ -78,7 +78,7 @@
 		cursor: pointer;
 		color: lightblue;
 		transition: all .3s;
-		font-family: '\5FAE\8F6F\96C5\9ED1';
+		font-family: '微软雅黑';
 	}
 
 	.header-text h1:hover {
