@@ -67,7 +67,7 @@
 		height: 60px;
 		margin-left: 5px;
 		position: relative;
-		font-family: '微软雅黑'
+		font-family: 'Micorsoft YaHei';
 	}
 
 	.header-text h1{
