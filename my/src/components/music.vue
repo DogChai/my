@@ -375,7 +375,7 @@
 						audio.src = this.musicData[this.listNum].url;
 						audio.setAttribute('dataNum',this.listNum);
 						this.playNum = audio.getAttribute('datanum') - 0;
-						musicShowName.innerHTML = this.musicData[this.listNum].name + '-' + this.musicData[this.listNum].singer;
+						musicShowName.innerHTML = this.musicData[this.listNum].name + ' - ' + this.musicData[this.listNum].singer;
 						this.getMusicTime();
 						this.playText =document.getElementsByClassName('music-begin')[this.playNum].children[0].innerHTML;
 						this.ifplay = true;
@@ -415,7 +415,7 @@
 						audio.src = this.musicData[this.orderNum].url;
 						audio.setAttribute('dataNum',this.orderNum);
 						this.playNum = audio.getAttribute('datanum') - 0;
-						musicShowName.innerHTML = this.musicData[this.orderNum].name + '-' + this.musicData[this.orderNum].singer;
+						musicShowName.innerHTML = this.musicData[this.orderNum].name + ' - ' + this.musicData[this.orderNum].singer;
 						this.getMusicTime();
 						this.playText =document.getElementsByClassName('music-begin')[this.playNum].children[0].innerHTML;
 						this.ifplay = true;
@@ -459,7 +459,7 @@
 						audio.src = this.musicData[this.randomNum].url;
 						audio.setAttribute('dataNum',this.randomNum);
 						this.playNum = audio.getAttribute('datanum') - 0;
-						musicShowName.innerHTML = this.musicData[this.randomNum].name + '/' + this.musicData[this.randomNum].singer;
+						musicShowName.innerHTML = this.musicData[this.randomNum].name + ' - ' + this.musicData[this.randomNum].singer;
 						this.getMusicTime();
 						this.playText =document.getElementsByClassName('music-begin')[this.playNum].children[0].innerHTML;
 						this.ifplay = true;
