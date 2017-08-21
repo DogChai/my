@@ -252,8 +252,8 @@
 					musicPlan.style.width = musicBar.offsetWidth * this.scales1 + 'px';
 					musicDarg.style.left = musicBar.offsetWidth * this.scales1 + 'px';
 					// 音乐时间
-					let timeSeconds = Math.round(this.duration % 60);
-					let timeMinutes = Math.round(this.duration / 60);
+					let timeSeconds = parseInt(this.duration % 60);
+					let timeMinutes = parseInt(this.duration / 60);
 
 					if(timeSeconds <= 9) {
 						timeSeconds = '0' + timeSeconds;
@@ -266,8 +266,8 @@
 					// console.log(timeSeconds,timeMinutes);
 					document.getElementsByClassName('time-all')[0].innerHTML = timeMinutes + ':' + timeSeconds;
 					// 当前播放时间
-					let newSeconds = Math.round(this.currentTime % 60);
-					let newMinutes = Math.round(this.currentTime / 60);
+					let newSeconds = parseInt(this.currentTime % 60);
+					let newMinutes = parseInt(this.currentTime / 60);
 
 					if(newSeconds <= 9) {
 						newSeconds = '0' + newSeconds;
