@@ -5,7 +5,7 @@
       "singer": "呦猫UNEKO",
       "playBool":false
     },{
-      "url": "",
+      "url": "http://ohx9cuj3d.bkt.clouddn.com/%E7%9F%B3%E5%B4%8E%E3%81%B2%E3%82%85%E3%83%BC%E3%81%84%20-%20%E3%83%94%E3%83%8E%E3%81%A8%E3%82%A2%E3%83%A1%E3%83%AA.mp3",
       "name": "ピノとアメリ",
       "singer": "石崎ひゅーい",
       "playBool":false
@@ -134,9 +134,7 @@
       "name": "Paris",
       "singer": "The Chainsmokers",
       "playBool":false
-    },
-    // 后摇
-    {
+    },{
       "url": "http://ohx9cuj3d.bkt.clouddn.com/%E8%B5%B5%E8%8B%B1%E4%BF%8A,%E5%BD%AD%E9%A3%9E%20-%20%E6%9A%B4%E9%9B%A8%E5%B0%86%E8%87%B3.mp3",
       "name": "暴雨将至",
       "singer": "赵英俊,彭飞",
@@ -191,9 +189,7 @@
       "name": "As Far As the Eye Can See",
       "singer": "As the Stars Fall",
       "playBool":false
-    },
-    // 轻音
-    {
+    },{
       "url": "http://ohx9cuj3d.bkt.clouddn.com/%E6%9E%97%E3%82%86%E3%81%86%E3%81%8D%20-%20%E6%98%9F%E7%A9%BA.mp3",
       "name": "星空",
       "singer": "林ゆうき",
