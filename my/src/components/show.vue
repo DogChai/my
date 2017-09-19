@@ -4,6 +4,31 @@
     <div class="show-demo">
       <div class="demo-top">
         <a class="demos">
+          <span class="ico-line"></span>
+          <span class="ico-span"><a href="http://lesses.me/demo" target='_blank'></a><i class="icono-home"></i></span>
+        </a>
+        <span class="demo-type">Jquery</span>/天气查询+轮播
+      </div>
+      <div class="demo-wrap">
+        使用聚合API+Ajax得到实时的天气数据;
+        jquery实现的简单轮播
+      </div>
+    </div>
+    <div class="show-demo">
+      <div class="demo-top">
+        <a class="demos">
+          <span class="ico-line"></span>
+          <span class="ico-span"><a href="http://lesses.me/mydemo" target='_blank'></a><i class="icono-home"></i></span>
+        </a>
+        <span class="demo-type">js+css</span>/小页面合集
+      </div>
+      <div class="demo-wrap">
+        轮播+仿官网主页+canvas绘图工具+加载页面效果+无延迟切换
+      </div>
+    </div>
+    <div class="show-demo">
+      <div class="demo-top">
+        <a class="demos">
 					<span class="ico-line"></span>
 					<span class="ico-span"><a href="http://lesses.me/my/fish" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
@@ -70,7 +95,7 @@
         <span class="demo-type">JavaScript</span>/表单验证
       </div>
       <div class="demo-wrap">
-        使用input作为输入口， 利用实现写好的条件进行判断， 返回对应的index把json文件中的结果显示
+        value+json进行判断,返回对应数据
       </div>
     </div>
     <div class="show-demo">
@@ -132,15 +157,15 @@ export default {
 }
 
 .show-demo {
-  width: 220px;
-  height: 230px;
+  width: 210px;
+  height: 220px;
   background: rgba(255,255,255,0.6);
   border-radius: 5px;
   position: relative;
   float: left;
-  margin-right: 40px;
+  margin-right: 20px;
   margin-top: 60px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   overflow: hidden;
   transition: all .3s;
 }
@@ -158,11 +183,11 @@ export default {
 }
 
 .show-demo:hover .ico-span {
-  top: 50%;
+  transform: translate(0,113px);
 }
 
 .show-demo:hover .ico-line {
-  top: 0;
+  transform: translate(0,0);
 }
 
 .demos {
@@ -180,9 +205,10 @@ export default {
 .ico-span {
   position: absolute;
   left: 50%;
-  top: -20px;
+  /* top: -20px; */
   margin-left: -27px;
   margin-top: -31px;
+  transform: translate(0,-20px);
   padding: 5px;
   display: inline-block;
   border: 2px solid white;
@@ -211,7 +237,8 @@ export default {
   left: 50%;
   margin-left: -2px;
   border-radius: 2px;
-  top: -134px;
+  /* top: -134px; */
+  transform: translate(0,-134px);
   transition: all .3s;
 }
 
@@ -273,6 +300,15 @@ export default {
 .show-demo:nth-child(8) .demo-top {
   background: url('http://ofuxn0fz8.bkt.clouddn.com/demo8.png');
 }
+
+.show-demo:nth-child(9) .demo-top {
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo3.png');
+}
+
+.show-demo:nth-child(10) .demo-top {
+  background: url('http://ofuxn0fz8.bkt.clouddn.com/demo6.png');
+}
+
 
 .demo-wrap {
   width: 100%;
