@@ -65,7 +65,9 @@
 					<div class="skill-show">
 						<ul>
 							<li>熟练掌握原生Javascript;</li>
-							<li>能运用面向对象的思想编写js程序;</li>
+							<li>了解原型及原型链</li>
+							<li>了解作用域和闭包</li>
+							<li>熟练DOM操作</li>
 							<li>熟悉正则表达式的使用.</li>
 						</ul>
 					</div>
@@ -84,6 +86,7 @@
 					<div class="skill-show">
 						<ul>
 							<li>了解Node.js是一门后台语言</li>
+							<li>学习过webpack,会基本操作</li>
 							<li>能够用其搭建前端自动化平台</li>
 						</ul>
 					</div>
@@ -173,6 +176,8 @@
 		font-size: 22px;
 		background: blue;
 		line-height: 65px;
+		animation: inherit;
+		animation-direction: reverse;
 	}
 
 	.skill-three .skill-c {
@@ -181,22 +186,21 @@
 		font-size: 20px;
 		background: blue;
 		line-height: 65px;
+		animation: inherit;
+		animation-direction: reverse;
 	}
 
 	@keyframes action {
-
 		from {
-
-		transform: rotate(0deg)  translateX(0px) rotate(0deg);
-
+			transform: rotate(0deg)  translateX(0px) rotate(0deg);
 		}
-
 		to {
-
-		transform: rotate(360deg) translateX(0px) rotate(0deg);
-
+			transform: rotate(360deg) translateX(0px) rotate(0deg);
 		}
+	}
 
+	@keyframes spin {
+		to { transform: rotate(1turn); }
 	}
 
 	@keyframes xuanzhuan {
@@ -224,6 +228,10 @@
 		to {
 			transform:rotate(0deg);
 		}
+	}
+
+	.no-rotate {
+
 	}
 
 	.skill-two .skill-c:nth-child(1) {
