@@ -20,6 +20,15 @@
     margin-left: 20px;
   }
 
+  .show-demo:hover .demos .ico-span {
+    transform: translate(0,74px);
+  }
+
+  .show-demo:hover .demos .ico-line {
+    transform: translate(0,0);
+  }
+
+
   .show .show-demo .demo-top {
     font-size: 14px;
   }

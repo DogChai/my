@@ -183,7 +183,7 @@ export default {
 }
 
 .show-demo:hover .ico-span {
-  transform: translate(0,113px);
+  transform: translate(0,83px);
 }
 
 .show-demo:hover .ico-line {
@@ -207,8 +207,8 @@ export default {
   left: 50%;
   /* top: -20px; */
   margin-left: -27px;
-  margin-top: -31px;
-  transform: translate(0,-20px);
+  /* margin-top: -31px; */
+  transform: translate(0,-50px);
   padding: 5px;
   display: inline-block;
   border: 2px solid white;
