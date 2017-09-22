@@ -5,7 +5,7 @@
       <div class="demo-top">
         <a class="demos">
           <span class="ico-line"></span>
-          <span class="ico-span"><a href="http://lesses.me/demo" target='_blank'></a><i class="icono-home"></i></span>
+          <span class="ico-span"><a href="http://lesses.me/my/weather" target='_blank'></a><i class="icono-home"></i></span>
         </a>
         <span class="demo-type">Jquery</span>/天气查询+轮播
       </div>
