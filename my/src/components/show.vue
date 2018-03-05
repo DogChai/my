@@ -5,7 +5,7 @@
       <div class="demo-top">
         <a class="demos">
           <span class="ico-line"></span>
-          <span class="ico-span"><a href="http://lesses.me/my/weather" target='_blank'></a><i class="icono-home"></i></span>
+          <span class="ico-span"><a href="http://www.wuyayu.cn/my/weather" target='_blank'></a><i class="icono-home"></i></span>
         </a>
         <span class="demo-type">Jquery</span>/天气查询+轮播
       </div>
@@ -18,7 +18,7 @@
       <div class="demo-top">
         <a class="demos">
           <span class="ico-line"></span>
-          <span class="ico-span"><a href="http://lesses.me/mydemo" target='_blank'></a><i class="icono-home"></i></span>
+          <span class="ico-span"><a href="http://www.wuyayu.cn/mydemo" target='_blank'></a><i class="icono-home"></i></span>
         </a>
         <span class="demo-type">js+css</span>/小页面合集
       </div>
@@ -30,7 +30,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/fish" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/fish" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">canvas</span>/爱心小鱼
       </div>
@@ -42,7 +42,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/five" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/five" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">canvas</span>/五子棋大战
       </div>
@@ -54,7 +54,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/move" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/move" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">JavaScript</span>/会动的小方块
       </div>
@@ -66,7 +66,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/xiaomibuy" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/xiaomibuy" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">HTML</span>/商城购物界面
       </div>
@@ -78,7 +78,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/sz" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/sz" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">HTML</span>/盛妆主页
       </div>
@@ -90,7 +90,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/input" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/input" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">JavaScript</span>/表单验证
       </div>
@@ -102,7 +102,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/for" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/for" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">JavaScript</span>/遍历元素
       </div>
@@ -114,7 +114,7 @@
       <div class="demo-top">
         <a class="demos">
 					<span class="ico-line"></span>
-					<span class="ico-span"><a href="http://lesses.me/my/lucky" target='_blank'></a><i class="icono-home"></i></span>
+					<span class="ico-span"><a href="http://www.wuyayu.cn/my/lucky" target='_blank'></a><i class="icono-home"></i></span>
 				</a>
         <span class="demo-type">JavaScript</span>/抽奖
       </div>
