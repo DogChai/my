@@ -68,7 +68,7 @@ export default {
     font-family: 'KaiTi';
     height: 100%;
     width: 100%;
-    background: url('http://ogm5at7ve.bkt.clouddn.com/bg2.jpg') no-repeat;
+    background: url('../static/assets/bg2.jpg') no-repeat;
     background-size: cover;
     overflow-y: hidden;
     overflow-x: hidden;

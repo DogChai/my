@@ -974,7 +974,7 @@
 	}
 
 	.music-list-img {
-		background: url('http://ogm5at7ve.bkt.clouddn.com/playbar.png');
+		background: url('../assets/playbar.png');
 		background-position: -42px -68px;
 		float: none;
 		width:38px;

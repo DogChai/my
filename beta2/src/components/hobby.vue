@@ -2,7 +2,7 @@
 				<div class="hobby">
 						<div class="ho one">
 								<div class="icon">
-										<img src="http://olro2iq8u.bkt.clouddn.com/piano.jpg">
+										<img src="../assets/g.jpg">
 										<div class="circle c_1"></div>
 										<div class="mask"></div>
 										<a href="http://music.163.com/#/user/home?id=62879556" target="_blank"></a>
@@ -12,7 +12,7 @@
 						</div>
 						<div class="ho two">
 								<div class="icon">
-										<img src="http://ogm5at7ve.bkt.clouddn.com/g.jpg">
+										<img src="../assets/g.jpg">
 										<div class="circle c_2"></div>
 										<div class="mask"></div>
 										<a href="http://baike.baidu.com/link?url=VcKgmcUwfHYFvrQD9hPli0kEqby30KWP9jeUrYfL4aUbZqoaYX3uPiPTcfi3d7eCyxuJj7AiqU3I3RGFFApZBd0IpMYvi1m6lPNlB0zcSDt7MWNkkIUO7gs824pT6QlU" target="_blank"></a>
@@ -22,7 +22,7 @@
 						</div>
 						<div class="ho three">
 								<div class="icon">
-										<img src="http://ogm5at7ve.bkt.clouddn.com/b.jpg">
+										<img src="../assets/g.jpg">
 										<div class="circle c_3"></div>
 										<div class="mask"></div>
 										<a href="http://baike.baidu.com/item/%E8%A5%BF%E9%83%A8%E4%B8%96%E7%95%8C/16357504" target="_blank"></a>
